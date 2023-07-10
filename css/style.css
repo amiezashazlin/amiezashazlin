@@ -1,0 +1,153 @@
+h1 
+{
+    color: rgb(42, 194, 174);
+    font-size: 40pt; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.menu
+{
+    width: 100%;
+    height: 50px;
+    font-size: 30px ;
+    text-decoration: none;
+    color: rgb(35, 177, 22);
+}
+
+table, tr, td, th
+{
+border:1px solid rgb(18, 235, 90);
+border-collapse: collapse;
+
+}
+
+td
+{
+    padding: 20px;
+  
+}
+
+th
+{
+    background-color: rgb(160, 224, 158);
+    color:rgb(17, 1, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+
+}
+
+tr
+{
+    background-color: rgb(11, 190, 161);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+tr:nth-child(odd)
+{
+    background-color:rgb(182, 18, 95)
+}
+
+tr:hover
+{
+    background-color:grey
+}
+
+a
+{
+    font-size: 30pt;
+    padding-right: 30px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(239, 242, 212);
+    font-weight: 500;
+
+}
+h2
+{
+    color: rgb(7, 103, 116);
+    font-size: 40pt; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3
+{
+    color: rgb(211, 112, 134);
+    font-size: 20pt; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4
+{
+    color: rgb(49, 7, 116);
+    font-size: 20pt; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h5
+{
+    color: rgb(211, 112, 134);
+    font-size: 20pt; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h6
+{
+    color: rgb(49, 7, 116);
+    font-size: 20pt; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h7
+{
+    color: rgb(211, 112, 134);
+    font-size: 20pt; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img
+{
+    width: 60;
+    height: 70;
+}
+
+
+.photo-container {
+    display: flex;
+    justify-content: first baselines;
+    align-items: flex-start;
+  }
+  
+  .formal-photo {
+    width: 200px;
+    height: auto;
+  }
+  
+  .animated-gif {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+  }
+  
+  .photo-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .photo-container img {
+    width: 20%;
+    height: auto;
+    margin-right: 3cm;
+  }
+  
+  .footer
+{
+    width: 100%;
+    height: 40px;
+    color: aliceblue;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
